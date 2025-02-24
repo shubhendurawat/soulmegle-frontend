@@ -2,7 +2,7 @@ import "./App.css";
 import VideoChat from "./components/VideoChat.jsx";
 import Dashboard from "./pages/Dashboard.jsx";
 import LoginForm from "./pages/LoginForm.jsx";
-import SignupForm from "./pages/SignupForm.jsx";
+import SignupForm from "../src/pages/SignUpForm.jsx";
 import { Route, Routes, useNavigate } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import { ChatProvider } from "../src/context/ChatContext.jsx"; // make sure this file exists
